@@ -6,7 +6,7 @@
 
 
 
-<h2> 💡 How It Works</h2>>
+<h2> 💡 How It Works</h2>
 <ul>
   <li>✅ The player inputs:</li>
   <li>✅Bet amount (EUR)</li>
@@ -17,9 +17,9 @@
   <li>✅ `profit = bet × actual multiplier</li>`
   <li>✅💰 Balance is updated automatically</li>
 </ul>
----
 
-<h2>🔧 Features</h2>h2>
+
+<h2>🔧 Features</h2>
 <ul>
   <li>🎨 Modern dark UI (inspired by Stake)</li>
   <li>✅ Manual betting system</li>
@@ -34,7 +34,7 @@
   <li>🔁 Balance persists until logout</li>
 </ul>
 
-<h2>📁 Technologies Used</h2>h2>
+<h2>📁 Technologies Used</h2>
 <ul>
   <li>**PHP** – server logic & sessions</li>
   <li>**HTML/CSS** – interface layout and design</li>
@@ -43,7 +43,7 @@
 </ul>
 
 
-<h2>▶️ How to Run</h2>h2>
+<h2>▶️ How to Run</h2>
 <ul>
   <li>1. Install **XAMPP**, **Laragon**, or any **PHP server**</li>
   <li>2. Place all files in `htdocs/limbo_game/` (or equivalent directory)</li>

@@ -1,0 +1,112 @@
+@import url("https://p.typekit.net/p.css?s=1&k=aba0ebl&ht=tk&f=139.173.175.176.10296&a=6570577&app=typekit&e=css");
+
+@font-face {
+font-family:"proxima-nova";
+src:url("https://use.typekit.net/af/2555e1/00000000000000007735e603/30/l?primer=9e9145798bfc6b7954a6cb7abc2ead67980260945baf1d129a2d2e98d0352745&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/2555e1/00000000000000007735e603/30/d?primer=9e9145798bfc6b7954a6cb7abc2ead67980260945baf1d129a2d2e98d0352745&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/2555e1/00000000000000007735e603/30/a?primer=9e9145798bfc6b7954a6cb7abc2ead67980260945baf1d129a2d2e98d0352745&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+body {
+  margin: 0;
+  font-family:"proxima-nova";
+  background-color: #0f1b2a;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+#profit-on-win{
+  font-family:"proxima-nova";
+}
+#bet-amount{
+  font-family:"proxima-nova";
+}
+#target-multiplier{
+  font-family:"proxima-nova";
+}
+#win-chance{
+  font-family:"proxima-nova";
+}
+.left-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  background-color: #1b2a3b;
+  padding: 20px;
+  height: 100vh;
+}
+.mode-toggle button {
+  background-color: #1b2a3b;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.mode-toggle .active {
+  background-color: #2a3e52;
+}
+.bet-section label,
+.bet-section input,
+.bet-section button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.bet-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.bet-buttons button {
+  width: 48%;
+  background-color: #2a3e52;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.bet-button {
+  background-color: #00ff6a;
+  font-family:"proxima-nova";
+  color: #000;
+  font-weight: bold;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.main-display {
+  margin-left: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  font-size: 8rem;
+  font-weight: bold;
+}
+.bottom-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #1b2a3b;
+}
+.bottom-panel label,
+.bottom-panel input {
+  margin: 0 10px;
+}
+.bottom-panel input {
+  width: 120px;
+  padding: 10px;
+  background-color: #2a3e52;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
